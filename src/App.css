@@ -1,0 +1,47 @@
+/* Import the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Global styles applied to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; /* Set Poppins as the default font */
+}
+
+/* Class for adding padding of 5px horizontally and 10px vertically */
+.p-10 {
+  padding: 5px 10px;
+}
+
+/* Class for setting font size to 16px */
+.f-16 {
+  font-size: 16px;
+}
+
+/* Class for setting text color to gray */
+.color-grey {
+  color: gray;
+}
+
+/* Class for creating a flexbox with space-between justification and centered alignment */
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Class for creating a flexbox with centered justification, centered alignment, and column direction with a 10px gap */
+.flex-gap-10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Class for setting the position to relative */
+.relative {
+  position: relative;
+}
+

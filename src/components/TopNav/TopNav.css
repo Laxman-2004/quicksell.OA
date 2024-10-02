@@ -1,0 +1,48 @@
+/* Styles for the group selection container */
+.selectGroup {
+    padding: 3px;
+  }
+  
+  /* Styles for the display button */
+  .displayButton {
+    position: relative; /* Allows for absolute positioning of dropdown*/
+  }
+  
+  /* Styles for the dropdown menu */
+  .dropOnClick {
+    position: absolute;
+    width: 250px;
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    z-index: 10; /* Ensure dropdown appears above other elements*/
+  }
+  
+  /* Ensures child elements within the dropdown fill its width */
+  .dropOnClick > * {
+    width: 100%;
+  }
+  
+  /* Styles for the dropdown buttons */
+  .btn {
+    background: #f8f8fa;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+  }
+  
+  /* Styles for the select dropdown */
+  .selectStyle {
+    width: 100px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+  }
+  
+  /* Styles for the dropdown icon */
+  .iconD {
+    margin-top: 5px;
+  }

@@ -1,0 +1,57 @@
+/* Container for the card component */
+.cardContainer {
+    width: 100%;
+    border: 1px white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgba(58, 62, 65, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background: white;
+  }
+  
+  /* Ensures that child elements within the card container fill their parent's width */
+  .cardContainer > * {
+    width: 100%;
+  }
+  
+  /* Styles for the card title */
+  .cardTitle {
+    font-size: small;
+  }
+  
+  /* Styles for the card heading */
+  .cardHeading {
+    font-size: small;
+  }
+  
+  /* Styles for the card tags container */
+  .cardTags {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* Styles for individual tags within the card */
+  .tags {
+    width: max-content;
+    padding: 2px 4px;
+    border-radius: 5px;
+    border: 1px solid silver;
+  }
+  
+  /* Styles for the status indicator */
+  .showStatus {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 8px;
+    height: 8px;
+    background: silver;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  /* Styles for the online status indicator */
+  .online {
+    background: #08a500;
+  }

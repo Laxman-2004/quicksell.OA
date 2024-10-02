@@ -1,0 +1,30 @@
+# .gitignore file for a React project
+
+# This file tells Git which files and folders to ignore when tracking changes.
+
+# Refer to https://help.github.com/articles/ignoring-files/ for more information on .gitignore.
+
+# Dependencies
+/node_modules  # Ignore the entire node_modules folder
+
+# Internal project tools (package manager specific)
+/.pnp           # Ignore the .pnp folder (used by Yarn)
+.pnp.js         # Ignore the pnp.js file (used by Yarn)
+
+# Testing files
+/coverage       # Ignore the coverage folder (generated test coverage reports)
+
+# Production build artifacts
+/build          # Ignore the build folder (generated production build files)
+
+# Miscellaneous files
+.DS_Store       # Ignore hidden Mac OS X files
+.env.local      # Ignore local environment variables
+.env.development.local  # Ignore development environment variables
+.env.test.local        # Ignore test environment variables
+.env.production.local  # Ignore production environment variables
+
+# Logging files (specific to npm and Yarn)
+npm-debug.log*  # Ignore npm debug logs
+yarn-debug.log*  # Ignore Yarn debug logs
+yarn-error.log*  # Ignore Yarn error logs

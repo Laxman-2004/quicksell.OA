@@ -1,0 +1,60 @@
+/* Container for dashboard cards */
+.dashContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; /* Adjust spacing between cards */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+  background: rgb(236, 236, 236);
+  padding: 5px 10px;
+  min-height: calc(100vh - 44.6px);
+  row-gap: 40px; /* Adjust vertical spacing between cards */
+  margin-bottom: 2rem;
+}
+
+/* Container for individual dashboard cards */
+.dashCardContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 5px;
+  width: 250px; /* Adjust card width as needed */
+}
+
+/* Container for left-aligned content within cards */
+.leftView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Style for icons within cards */
+.icon {
+  margin-bottom: -4px; /* Adjust positioning as needed */
+}
+
+/* Style for user status indicator */
+.userStatus {
+  position: absolute;
+  right: -2px;
+  bottom: -4px;
+  width: 8px;
+  height: 8px;
+  background: silver;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/* Responsive adjustments for different screen sizes */
+@media (max-width: 980px) {
+  .dashContainer {
+      justify-content: space-evenly; /* Adjust spacing for medium screens */
+  }
+}
+
+@media (max-width: 560px) {
+  .dashContainer {
+      justify-content: center; /* Center cards on small screens */
+  }
+}
