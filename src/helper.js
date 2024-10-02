@@ -53,6 +53,12 @@ import {
     if (priority === 1) {
       return LowPriority;
     }
+    if (priority === 2) {
+      return MediumPriority;
+    }
+    if (priority === 3) {
+      return HighPriority;
+    }
     // ... (similar checks for other priority levels)
     if (priority === 4) {
       return UrgentPrioritygrey;
